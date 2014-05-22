@@ -17,7 +17,7 @@ Register `function/strlen`:
     % groonga DB
     > register function/strlen
 
-Now, you can use `echo` command
+Now, you can use `strlen` function
 
     > select Entries --output_columns 'strlen(title)' --command_version 2
     [

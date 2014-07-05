@@ -10,7 +10,7 @@
 
 static grn_obj *
 func_strlen(grn_ctx *ctx, GNUC_UNUSED int nargs, GNUC_UNUSED grn_obj **args,
-                  grn_user_data *user_data)
+            grn_user_data *user_data)
 {
   grn_obj *result;
   unsigned int str_length = GRN_TEXT_LEN(args[0]);
